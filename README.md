@@ -1,3 +1,3 @@
 # React_JS_Tutorial
 
-# Install using vite
+## Install using vite
