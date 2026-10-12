@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+form{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+input{
+  height: 40px;
+  flex-basis: 80%;
+}
+
+button{
+  flex-basis: 20%;
+}
+
+.outerdiv{
+  width: 1170px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.outerdiv ul{
+margin: 0px;
+margin-top: 5px;
+padding: 0px;
+list-style: none;
+width: 100%;
+}
+
+.outerdiv ul li{
+  margin-bottom: 5px;
+  height: 40px;
+  background-color: black;
+  color: white;
+position: relative;
+display: flex;
+align-items: center;
+  padding: 0 15px;
+}
+
+.outerdiv ul li span{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.todostatus{
+  text-decoration: line-through;
+  background-color: gray !important;
+}
